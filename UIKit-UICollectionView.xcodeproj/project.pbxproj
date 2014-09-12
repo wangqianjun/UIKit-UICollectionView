@@ -14,13 +14,15 @@
 		E78D106819C1EEB8008CAAFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78D106719C1EEB8008CAAFA /* main.m */; };
 		E78D106C19C1EEB8008CAAFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78D106B19C1EEB8008CAAFA /* AppDelegate.m */; };
 		E78D106F19C1EEB8008CAAFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78D106D19C1EEB8008CAAFA /* Main.storyboard */; };
-		E78D107219C1EEB8008CAAFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78D107119C1EEB8008CAAFA /* ViewController.m */; };
 		E78D107419C1EEB8008CAAFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78D107319C1EEB8008CAAFA /* Images.xcassets */; };
 		E78D107B19C1EEB8008CAAFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78D107A19C1EEB8008CAAFA /* XCTest.framework */; };
 		E78D107C19C1EEB8008CAAFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78D105B19C1EEB8008CAAFA /* Foundation.framework */; };
 		E78D107D19C1EEB8008CAAFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78D105F19C1EEB8008CAAFA /* UIKit.framework */; };
 		E78D108519C1EEB8008CAAFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E78D108319C1EEB8008CAAFA /* InfoPlist.strings */; };
 		E78D108719C1EEB8008CAAFA /* UIKit_UICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78D108619C1EEB8008CAAFA /* UIKit_UICollectionViewTests.m */; };
+		E7BEF7DF19C290810000B492 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BEF7DE19C290810000B492 /* CollectionViewController.m */; };
+		E7BEF7E519C2A1010000B492 /* FragmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BEF7E419C2A1010000B492 /* FragmentCell.m */; };
+		E7BEF7E819C2CB7F0000B492 /* ASEDynamicCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BEF7E719C2CB7F0000B492 /* ASEDynamicCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		E78D106A19C1EEB8008CAAFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E78D106B19C1EEB8008CAAFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E78D106E19C1EEB8008CAAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E78D107019C1EEB8008CAAFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E78D107119C1EEB8008CAAFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E78D107319C1EEB8008CAAFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E78D107919C1EEB8008CAAFA /* UIKit-UICollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit-UICollectionViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78D107A19C1EEB8008CAAFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E78D108219C1EEB8008CAAFA /* UIKit-UICollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKit-UICollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		E78D108419C1EEB8008CAAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E78D108619C1EEB8008CAAFA /* UIKit_UICollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKit_UICollectionViewTests.m; sourceTree = "<group>"; };
+		E7BEF7DD19C290810000B492 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		E7BEF7DE19C290810000B492 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		E7BEF7E319C2A1010000B492 /* FragmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FragmentCell.h; sourceTree = "<group>"; };
+		E7BEF7E419C2A1010000B492 /* FragmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FragmentCell.m; sourceTree = "<group>"; };
+		E7BEF7E619C2CB7F0000B492 /* ASEDynamicCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASEDynamicCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		E7BEF7E719C2CB7F0000B492 /* ASEDynamicCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASEDynamicCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,11 @@
 				E78D106A19C1EEB8008CAAFA /* AppDelegate.h */,
 				E78D106B19C1EEB8008CAAFA /* AppDelegate.m */,
 				E78D106D19C1EEB8008CAAFA /* Main.storyboard */,
-				E78D107019C1EEB8008CAAFA /* ViewController.h */,
-				E78D107119C1EEB8008CAAFA /* ViewController.m */,
+				E7BEF7DD19C290810000B492 /* CollectionViewController.h */,
+				E7BEF7DE19C290810000B492 /* CollectionViewController.m */,
+				E7BEF7E219C29BA70000B492 /* Cell */,
+				E7BEF7E119C29B700000B492 /* Reusable Views */,
+				E7BEF7E019C29B570000B492 /* Layout */,
 				E78D107319C1EEB8008CAAFA /* Images.xcassets */,
 				E78D106219C1EEB8008CAAFA /* Supporting Files */,
 			);
@@ -150,6 +159,31 @@
 				E78D108319C1EEB8008CAAFA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7BEF7E019C29B570000B492 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				E7BEF7E619C2CB7F0000B492 /* ASEDynamicCollectionViewFlowLayout.h */,
+				E7BEF7E719C2CB7F0000B492 /* ASEDynamicCollectionViewFlowLayout.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		E7BEF7E119C29B700000B492 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		E7BEF7E219C29BA70000B492 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E7BEF7E319C2A1010000B492 /* FragmentCell.h */,
+				E7BEF7E419C2A1010000B492 /* FragmentCell.m */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78D107219C1EEB8008CAAFA /* ViewController.m in Sources */,
+				E7BEF7DF19C290810000B492 /* CollectionViewController.m in Sources */,
+				E7BEF7E519C2A1010000B492 /* FragmentCell.m in Sources */,
+				E7BEF7E819C2CB7F0000B492 /* ASEDynamicCollectionViewFlowLayout.m in Sources */,
 				E78D106C19C1EEB8008CAAFA /* AppDelegate.m in Sources */,
 				E78D106819C1EEB8008CAAFA /* main.m in Sources */,
 			);
@@ -456,6 +492,7 @@
 				E78D108C19C1EEB8008CAAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E78D108D19C1EEB8008CAAFA /* Build configuration list for PBXNativeTarget "UIKit-UICollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +501,7 @@
 				E78D108F19C1EEB8008CAAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

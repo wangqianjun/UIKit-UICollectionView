@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  FragmentCell.h
 //  UIKit-UICollectionView
 //
-//  Created by 王钱钧 on 14-9-11.
+//  Created by 王钱钧 on 14-9-12.
 //  Copyright (c) 2014年 王钱钧. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FragmentCell : UICollectionViewCell
 
 @end

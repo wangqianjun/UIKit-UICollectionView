@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class CollectionViewController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) CollectionViewController *rootVC;
 
 @end
